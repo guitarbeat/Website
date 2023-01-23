@@ -10,6 +10,7 @@
     top: 0;
     flex-direction: row-reverse;
     z-index: 999;
+    transition: right .5s ease-in-out;
     
     &__item {
         color: var(--text);
@@ -17,8 +18,8 @@
         font-size: 2rem;
         font-weight: 600;
         text-transform: uppercase;
-        transform: translateX(20vw);
-        transition: right .5s ease-in-out; 
+        transform: translateX(10rem);
+         
         &:hover::after {
             width: 100%;
             background-color: var(--text);
