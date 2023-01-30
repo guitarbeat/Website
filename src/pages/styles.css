@@ -124,7 +124,7 @@ model-viewer {
 
 #ar-button {
   /* sets the background image of the button to an image located at '/ar_icon.png' */
-  background-image: "/ar_icon.png";
+  background-image: "ar_icon.png";
   /* sets the background image not to repeat */
   background-repeat: no-repeat;
   /* sets the width and height of the background image to 20px by 20px */

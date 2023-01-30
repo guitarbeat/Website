@@ -38,6 +38,7 @@ const AR = () => {
               <div className="update-bar"></div>
             </div>
             <button slot="ar-button" id="ar-button">
+              {/* add button here? */}
               View in your space
             </button>
             <div id="ar-prompt">
