@@ -3,40 +3,45 @@
 // =========================
 :root {
   // Define color variables
-  --color-primary: #81b29a;
-  --color-primary-light: #9ac1ae;
-  --color-primary-dark: #67a286;
 
-  --color-secondary: #e07a5f;
-  --color-secondary-light: #e58e76;
-  --color-secondary-dark: #db6443;
+  // Primary Colors
+  --color-primary: #81b29a;               // A shade of greenish-blue
+  --color-primary-light: #9ac1ae;         // A lighter shade of greenish-blue
+  --color-primary-dark: #67a286;          // A darker shade of greenish-blue
 
-  --color-terceary: #f2cc8f;
-  --color-terceary-light: #f4d5a4;
-  --color-terceary-dark: #eebc6d;
+  // Secondary Colors
+  --color-secondary: #e07a5f;             // A shade of reddish-orange
+  --color-secondary-light: #e58e76;       // A lighter shade of reddish-orange
+  --color-secondary-dark: #db6443;        // A darker shade of reddish-orange
 
-  --color-grey-light-1: #f4f1de;
-  --color-grey-light-2: #faf9f0;
-  --color-grey-light-3: #d4d1be;
-  --color-grey-light-4: #e8f1f2;
+  // Tertiary Colors
+  --color-terceary: #f2cc8f;              // A shade of yellowish-brown
+  --color-terceary-light: #f4d5a4;        // A lighter shade of yellowish-brown
+  --color-terceary-dark: #eebc6d;         // A darker shade of yellowish-brown
 
-  --color-grey-dark-1: #2b3945;
-  --color-grey-dark-2: #3d405b;
-  --color-grey-dark-3: #52557a;
-  --color-grey-dark-4: #1e1e2f;
+  // Grey Colors
+  --color-grey-light-1: #f4f1de;          // A light shade of gray
+  --color-grey-light-2: #faf9f0;          // A slightly lighter shade of gray
+  --color-grey-light-3: #d4d1be;          // A medium shade of gray
+  --color-grey-light-4: #E4E4E4;          // A lighter shade of gray
+
+  --color-grey-dark-1: #313349;           // A dark shade of gray
+  --color-grey-dark-2: #3d405b;           // A slightly lighter shade of dark gray
+  --color-grey-dark-3: #52557a;           // A medium shade of dark gray
+  --color-grey-dark-4: #1E1E2F;           // A darker shade of gray
 
   // Define background and text colors
-  --background-color: var(--color-grey-dark-1);
-  --lightground-color: var(--color-grey-light-4);
-  --text-color: #d8e3e7;
+  --background-color: var(--color-grey-dark-1);      // Background color is a dark shade of gray
+  --lightground-color: var(--color-grey-light-4);    // Lightground color is a lighter shade of gray
+  --text-color: white;                               // Text color is white
 
   // Define shadow variables
-  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);      // Dark shadow with a blur effect
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);    // Light shadow with a blur effect
 
   // Define a cubic-bezier curve
-  --bezier-curve: cubic-bezier(0.49, -0.35, 0.56, 1.39);
-  --tooltip-background-color: var(--color-grey-dark-4);
+  --bezier-curve: cubic-bezier(.49,-0.35,.56,1.39);   // A specific curve for animations
+  --tooltip-background-color: var(--color-grey-dark-4); // Background color for tooltips is a darker shade of gray
 }
 
 // =========================
